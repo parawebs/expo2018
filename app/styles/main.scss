@@ -22,6 +22,27 @@ body {
     overflow-x: hidden;
 }
 
+.row-flex{
+    display: flex;
+    padding: 0px 5%;
+}
+
+.mb1em{
+    margin-bottom: 1em;
+}
+
+.box2{
+    width: 50%;
+}
+
+.line1{ width: 70%; }
+.line2{ width: 78%; }
+.line3{ width: 83%; }
+
+.line{
+    border-bottom: solid 1px #979797;
+}
+
 .more-info {
     margin-top: 2.4rem;
     .location {
@@ -118,7 +139,7 @@ body {
     }
     .phone {
         font-family: 'Ek Mukta', sans-serif;
-        font-size: 2rem;
+        font-size: 3rem;
         font-weight: 300;
         color: #df3582;
     }
