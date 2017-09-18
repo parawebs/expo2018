@@ -1,0 +1,101 @@
+//output:../index.html
+-var p1 = 'del 11 al 28 de enero de 2018 se realizará, en el Complejo Ferial de la ciudad de San Cristóbal, La Expo más importante y de mayor magnitud del país es el evento que le brinda la mejor oportunidad de proyectar tu imagen, mas de 13.000 visitantes diarios, mas de 400 expositorees en diferentes áreas, la mejor feria gastronómica, conciertos musicales insuperables y un gran despliegue de seguridad. '
+-var address = 'Oficina de Ventas: Centro Comercial "El Pinar". Piso 2 , Local C3-12 San Cristóbal, estado Táchira'
+
+include header.pug.jade
+  body
+    div.banner
+    .columns.container-pad.margin-top1em
+      .column
+        h1.h1.rojo.center EXPO TÁCHIRA 2018
+        p.p1 #{p1}
+        .space-around.margin-top1em.phone
+          .left 0276-3557131
+          .right 0276-4217945
+        .address #{address}
+        h2.phone Contactanos
+        .redes
+          img(src="images/Elementos/facebook.png")
+          img(src="images/Elementos/twitter.png")
+          img(src="images/Elementos/instagram.png")
+      .column
+        h2.title-form ADQUIERE TU #[strong STAND]
+        .box-contact#contactenos
+          form.form
+            .field
+              .control
+                input.input.nombre(required type="text" placeholder="Nombre" name="nombre")
+            .field
+              .control
+                input.input.email(required type="email" placeholder="E-mail" name="email")
+            .field
+              .control
+                input.input.telefono(required type="text" placeholder="Teléfono" name="telefono")
+            .field
+              .control
+                input.input.nombreEmpresa(required type="text" placeholder="Nombre de la empresa" name="nombreEmpresa")
+            .solicita Solicita más Información
+    .columns.container-pad
+      .column
+        img(src="images/Elementos/mil-producciones.png")
+      .column
+        img(src="images/Elementos/expotachira.png")
+      .column
+        img(src="images/Elementos/gobernacion.png")
+      .column
+        img(src="images/Elementos/corpotachira.png")
+    .columns.container-pad
+      .column
+        .address2verde 
+          h2.h2-address San Cristobal, Estado Tachira Venezuela
+          h3.h3-address Del 12 al 28 de Enero
+        .verde + 250.000 #[strong Visitantes]
+        .naranja 4000 MTS2 #[strong De exposición]
+        .azul-celeste + 400 #[strong Expositores]
+        .amarillo 17 #[strong Dias de exposición]
+      .column
+        .video-container
+          iframe.video(width="700" height="400" src="https://www.youtube.com/embed/PN3QmNw31uU" frameborder="0" allowfullscreen)
+    img(src="images/Elementos/Banner-Inferior.png")
+    .columns.container-pad
+      .column
+        .space-between
+          .li Pabellon Venezuela
+          span.mas +
+        .space-between
+          .li Patio 3
+          span.mas +
+        .space-between
+          .li Patio 7
+          span.mas +
+      .column
+        .space-between
+          .li Pabellon Colombia
+          span.mas +
+        .space-between
+          .li Patio 4
+          span.mas +
+        .space-between
+          .li Patio 8
+          span.mas +
+      .column
+        .space-between
+          .li Pabellon Principal 
+          span.mas +
+        .space-between
+          .li Patio 5
+          span.mas +
+        .space-between
+          .li Patio 9
+          span.mas +
+      .column
+        .space-between
+          .li Patio 2
+          span.mas +
+        .space-between
+          .li Feria de comida
+          span.mas +
+    footer.foot
+      .center
+        img(src="images/Elementos/sintit.png")
+    
