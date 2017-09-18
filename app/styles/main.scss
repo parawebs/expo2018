@@ -82,6 +82,7 @@ p{
 }
 
 .solicita{
+  cursor: pointer;
   background-color: $amarillo;
   color: #fff;
   font-size: 2em;
@@ -163,4 +164,20 @@ p{
   justify-content: center;
   background-color: #1a897b;
   padding: 1em;
+}
+
+.banner2{
+  background-image: url(../images/Elementos/Banner-logos.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+input:focus{
+  border-color: $amarillo !important;
+}
+
+@media (max-width:768px){
+  .banner{
+    background-attachment: inherit !important;
+  }
 }
